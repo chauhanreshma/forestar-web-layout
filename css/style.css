@@ -1,0 +1,420 @@
+
+.backgraud {
+    background-image: url(../image/bg-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.headertex:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.headerfont {
+    font-size: 11px;
+}
+
+.secondheader {
+    font-size: 20px;
+    color: white;
+}
+
+.sec-con-font {
+    position: relative;
+    top: 50px;
+}
+
+.lineborder {
+    border: solid 0.02em gray;
+}
+
+.camera {
+    height: 185px;
+    font-size: 60px;
+    color: white;
+    position: relative;
+    top: 65px;
+    left: 150px;
+}
+
+.camera:hover {
+    color: white;
+}
+
+.finger {
+    height: 185px;
+    font-size: 60px;
+    color: white;
+    position: relative;
+    top: 65px;
+    left: 150px;
+}
+
+.finger:hover {
+    color: white;
+}
+
+.forestersize {
+    font-size: 9em;
+}
+
+.explorbtn {
+    background-color: rgba(190, 208, 148, .8);
+    color: white;
+}
+
+.font-w {
+    width: 300px;
+    padding-left: 40px;
+}
+
+.explorbtn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(190, 208, 148, .4);
+}
+
+.readmor:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: black 1px solid;
+
+}
+
+.readmor {
+    color: lightgrey;
+    border-bottom: lightgrey 1px solid;
+    font-size: 13px;
+}
+
+.shorttex {
+    color: grey;
+    font-size: 13px;
+}
+
+.bgcolor {
+    background-color: #f2f4ec;
+}
+
+.discover:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.smallimg {
+    position: relative;
+    left: 80px;
+    margin: 50px;
+}
+
+.serviceefact {
+    transition: 0.3s;
+}
+
+.serviceefact:hover {
+    transition: 0.3s;
+    transform: scale(1.06);
+}
+
+.secondpill {
+    text-decoration: none;
+    background-color: #f2f4ec;
+    border-radius: 50px;
+    border: 1px lightgrey solid;
+    padding: 10px 30px;
+    color: black;
+    position: relative;
+    left: 440px;
+
+}
+
+.secondpill:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: solid 1px black;
+}
+
+.secondlist {
+    color: grey;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.secondlisthover:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.secondlisthover {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.listmove {
+    position: relative;
+    left: 360px;
+    top: 20px;
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+.galimg img {
+    width: 100%;
+}
+
+.gallery {
+    transition: 1s;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery:hover img {
+    transition: 0.5s;
+    transform: scale(1.4);
+}
+
+.uper-glery {
+    background-color: white;
+    width: 100%;
+    opacity: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.card-font {
+    padding-top: 90px;
+    text-align: center;
+}
+
+.gallery:hover .uper-glery {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.card-font-size {
+    font-size: 11px;
+}
+
+.fontawsome {
+    position: relative;
+    top: 38px;
+    right: 15px;
+}
+
+.fontawsome:hover {
+    color: red;
+}
+
+.iconfont {
+    width: 75%;
+    position: relative;
+    left: 69px;
+    bottom: 40px;
+}
+
+.iconsmall {
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.iconbig {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.teampos {
+    position: relative;
+    top: 80px;
+}
+
+.team {
+    padding-bottom: 180px;
+}
+
+.team-card {
+    overflow: hidden;
+    transition: 0.5s;
+    position: relative;
+    margin: 0 8px;
+}
+
+.team-card:hover img {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.team-under-card {
+    width:88%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    height: 93%;
+    padding-top: 70px;
+    transition: all .2s;
+}
+.team-card:hover .team-under-card{
+    opacity: 1;
+}
+.team-pere{
+    width: 67%;
+    font-size: 13px;
+    margin-left: 65px;
+}
+.card-space{
+    margin-bottom: 200px;
+}
+.team-acr{
+    color: black;
+    /*font-size: 30px;*/
+    text-decoration: none;
+    position: relative;
+    right: 30px;
+    padding-left: 15px;
+
+}
+.team-acr:hover{
+    color: gray;
+}
+
+.imgsize {
+    width: 95%;
+    height: 95%;
+}
+
+.bgblack {
+    background-color: black;
+}
+
+.fontw {
+    width: 100%;
+    text-align: center;
+}
+
+.texwi {
+    font-size: 80px;
+}
+
+.numcontent {
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+.fontwi {
+    width: 92%;
+    margin-left: 25px;
+}
+
+.bigicon {
+    font-size: 70px;
+    color: black;
+    text-decoration: none;
+    margin: 50px;
+}
+
+.bigicontex {
+    color: black;
+}
+
+.bigicontex:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.fonts {
+    font-size: 12px;
+}
+
+.iconwi {
+    position: relative;
+    left: 180px;
+    width: 70%;
+}
+
+.contact-icon {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-icon-info {
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 1.12);
+}
+
+.contact-info {
+    display: inline-block;
+}
+
+.contact-font {
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.imgw {
+    width: 40px;
+}
+
+.form-content {
+    margin-bottom: 15px;
+    /*background-color: #f2f4ec;*/
+}
+
+.clas {
+    border-radius: 50px;
+    border: 1px solid #f2f4ec;
+    padding: 15px 65px;
+
+}
+
+.footerimg:hover {
+    background-color: grey;
+}
+
+.footer-font {
+    color: white;
+    font-size: 10px;
+}
+
+.foot-left-icon {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-font-right {
+    font-size: 14px;
+    color: white;
+}
+.footer-icon{
+    padding-left: 95px;
+}
+.policy {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.policy:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.foot-icon-pos {
+    position: relative;
+    left: 110px;
+}
+.footer-all-space{
+    padding: 60px 0;
+}
