@@ -169,7 +169,7 @@
 }
 
 .gallery {
-    transition: 1s;
+    transition: 0.5s;
     overflow: hidden;
     position: relative;
 }
